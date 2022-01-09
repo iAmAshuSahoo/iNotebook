@@ -1,6 +1,8 @@
+// Connecting to Mongo DB
 const connectToMongo = require("./db");
 connectToMongo();
 
+// Hosting the server
 const express = require('express')
 const app = express()
 const port = 5000
